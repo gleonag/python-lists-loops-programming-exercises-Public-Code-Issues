@@ -4,4 +4,8 @@ contact = {
     "email": "test@test.com"
 }
 #Your code here:
-
+def new_contact(contact):
+    for i in contact:
+        return(i)
+    return new_contact(contact)
+print(new_contact(contact))
