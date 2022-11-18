@@ -5,10 +5,9 @@ def deletePerson(person_name):
     # Your code go here:
     new_list = []
     for i in people:
-        if i != person_name:
-            new_list.append(i)
-    return new_list
+        print(i)
 
-print(deletePerson("daniella"))
+        
+# print(deletePerson("daniella"))
 print(deletePerson("juan"))
-print(deletePerson("emilio"))
+# print(deletePerson("emilio"))
