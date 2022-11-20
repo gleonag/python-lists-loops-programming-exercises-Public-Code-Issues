@@ -15,10 +15,6 @@ def calculateAge(birthDate):
     age = today.year - birthDate.year - ((today.month, today.day) < (birthDate.month, birthDate.day))
     return age
 
-name_list = list(map(lambda person: f"{person['name']} {person['birthdate']}", people))
+name_list = list(map(lambda person:  person["name"] , people))
 print(name_list)
 
-# def data_transformer(data_list):
-#     return list(map(lambda element: f"{element['name']} {element['last_name']}", data_list))
-
-# print(data_transformer(incoming_ajax_data))

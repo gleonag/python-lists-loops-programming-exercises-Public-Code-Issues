@@ -3,7 +3,6 @@ all_names = ["Romario","Boby","Roosevelt","Emiliy", "Michael", "Greta", "Patrici
 
 #Your code go here:
 
-
 print(resulting_names)
 
 
