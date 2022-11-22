@@ -15,3 +15,7 @@ def minInteger(my_list):
 print(minInteger(my_list))
 
 
+# DEBERIA DE ESTAR BIEN
+
+
+

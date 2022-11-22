@@ -12,6 +12,4 @@ tasks = [
 
 
 #Your code go here:
-def task_done(task):
 
-	return

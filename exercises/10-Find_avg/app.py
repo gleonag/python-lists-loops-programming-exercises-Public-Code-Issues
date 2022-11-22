@@ -8,3 +8,5 @@ def average(my_list):
 
     return suma/len(my_list)
 print(average(my_list))
+
+# DA LO MISMO!
