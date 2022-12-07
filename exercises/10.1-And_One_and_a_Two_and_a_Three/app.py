@@ -8,4 +8,4 @@ def new_contact(contact):
     for i in contact:
         return(i)
     return new_contact(contact)
-print(new_contact(contact))
+print({new_contact(contact)})

@@ -7,3 +7,7 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 
 
 #Your code go here:
+
+filtered = list(filter(lambda e: "am" in e.lower(), names))
+print(filtered)
+
