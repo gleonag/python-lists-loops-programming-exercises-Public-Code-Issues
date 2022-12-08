@@ -2,9 +2,18 @@ people = [ 'Lebron','Aaliyah','Diamond','Dominique','Aliyah','Jazmin','Darnell',
 
 #Your code here:
 
+
 for name in people:
-    if name.lower() == "waldo":
-        print(people[name])
+    if name.lower() == 'waldo':
+       print(name)
+       
+    
+
+
+
+# for name in people:
+#     if name.lower() == "waldo":
+#         print(people[name])
 
 
 

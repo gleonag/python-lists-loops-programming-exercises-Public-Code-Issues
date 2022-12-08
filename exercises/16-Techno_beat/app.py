@@ -10,17 +10,13 @@ print(lyrics_generator([1,1,1]))
 
 
 def lyrics_generator(lista):
-   ritmo = {'Boom' : 0, 'Drop the base':0 , '!!!Break the base!!!':0}
-   for i in range(len(lista)):
-    if lista(i) == 0:
-        ritmo['Boom'] += 1
-        
-    elif lista(i) == 1:
-        ritmo['Drop the base'] += 1
-        ritmo['!!!Break the base!!!']+=1
-
+    ritmo = []
+    for i in range(len(lista)):
+        if i == 0:
+            ritmo.append("Boom")
+        elif i == 1:
+            ritmo.append("Drop the base")
     return ritmo
-
 
 
 # def get_parking_lot(matriz):
